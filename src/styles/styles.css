@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.tw-w-140px {
+  width: 8.75rem;
+}
+
+@responsive {
+  .tw-w-820px {
+    width: 51.25rem !important;
+  }
+}
+
+.tw-pt-16pr {
+  padding-top: 16%;
+}
